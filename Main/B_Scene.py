@@ -587,7 +587,7 @@ class MainScene(QGraphicsScene):
         llave = None
         atributos = []
 
-        # Obtener conecciones de la entida
+        # Get entity conexions
         aristas = [
             arista for arista in self.aristas.allAristas()
             if entidad == arista.data(1) or entidad == arista.data(2)
